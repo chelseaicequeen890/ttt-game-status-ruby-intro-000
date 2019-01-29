@@ -39,3 +39,6 @@ def full?(board)
     pos == "X" || pos == "O"
   end
 end
+
+def draw?(board)
+end
