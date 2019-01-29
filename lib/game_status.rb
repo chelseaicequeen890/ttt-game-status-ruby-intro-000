@@ -25,9 +25,9 @@ def won?(board)
     position3 = board[index2]
 
     if position1 == "X" && position2 == "X" && position3 == "X"
-      return winning_combo
+      return winning_comboX
     elsif position1 == "O" && position2 == "O" && position3 == "O"
-      return winning_combo
+      return winning_comboY
     end
   end
   return false
@@ -55,5 +55,6 @@ def over?(board)
   end
 end
 
-def winner?
+def winner?(board)
+
 end
